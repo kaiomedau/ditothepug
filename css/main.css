@@ -1,0 +1,96 @@
+html,
+body {
+  background: linear-gradient(rgba(255, 135, 51, 1), rgba(255, 209, 115, 1));
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.section {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+}
+
+#menu {
+  background-color: #000;
+  height: 38px;
+  margin-bottom: 60px;
+  padding-top: 12px;
+}
+
+#menu #socials {
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  /* border: solid red; */
+  width: 110px;
+}
+
+#menu #socials img {
+  height: 24px;
+}
+
+#main {
+  text-align: center;
+}
+
+#main .wrapper {
+  /* border: solid; */
+  margin: auto;
+  max-width: 560px;
+  display: flex;
+  flex-direction: row;
+}
+
+#main .wrapper div {
+  /* display: inline-block; */
+  /* float: left; */
+}
+
+#main img {
+  width: 280px;
+}
+
+#logo {
+  margin-top: 50px;
+}
+
+#about {
+  width: 80%;
+  max-width: 760px;
+  /* border: solid; */
+}
+
+#toolbar {
+  padding: 20px 12px;
+  background-color: #000;
+}
+
+#toolbar #os-button {
+  margin: auto;
+  background-color: #ffbb00;
+  padding: 16px 32px;
+  max-width: 140px;
+  border-radius: 14px;
+}
+
+#toolbar #os-button:hover {
+  background-color: #ff8c00;
+}
+
+@media only screen and (max-width: 768px) {
+  #main .wrapper {
+    /* border: solid; */
+    margin: auto;
+    max-width: 300px;
+    flex-direction: column;
+  }
+}
